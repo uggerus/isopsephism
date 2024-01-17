@@ -1,5 +1,5 @@
-from isopsephism import example_function
+import pytest
+import isopsephism
 
-
-def test_example_function():
-    assert example_function() == 2
+def test_from_greek_to_num():
+    assert greek_isopsephy("ΚΟΥΡΑΙ") == 601
