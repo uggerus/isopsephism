@@ -1,6 +1,28 @@
 [project]
-name = "placeholder"
+name = "isopsephism"
 version = "0.1"
+description = "null"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "null"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/uggerus/isopsephism"
+Changelog = "https://github.com/uggerus/isopsephism/releases"
+Issues = "https://github.com/uggerus/isopsephism/issues"
+CI = "https://github.com/uggerus/isopsephism/actions"
+
 
 [project.optional-dependencies]
 test = ["pytest"]
