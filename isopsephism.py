@@ -80,4 +80,4 @@ greek_isopsephy_dict = {
     "ϡ": 900
 }
 
-greek_isopsephy = LetterToNumberConverter(greek_isopsephy_dict)
+isopsephy = LetterToNumberConverter(greek_isopsephy_dict)
