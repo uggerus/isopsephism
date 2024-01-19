@@ -2,7 +2,7 @@
 
 class LetterToNumberConverter(object):
 
-    def _init_(self, dict):
+    def __init__(self, dict):
         self.dict = dict
 
 
