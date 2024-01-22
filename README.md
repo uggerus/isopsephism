@@ -5,7 +5,7 @@
 [![Changelog](https://img.shields.io/github/v/release/uggerus/isopsephism?include_prereleases&label=changelog)](https://github.com/uggerus/isopsephism/releases)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/uggerus/isopsephism/blob/main/LICENSE)
 
-null
+Find the numerical value of words.
 
 ## Installation
 
@@ -15,7 +15,11 @@ pip install isopsephism
 ```
 ## Usage
 
-Usage instructions go here.
+```
+from isopsephism.isopsephism import isopsephy
+print(isopsephy.convert_word_to_num("ΚΟΥΡΑΙ"))
+#prints 601
+```
 
 ## Development
 
