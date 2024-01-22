@@ -1,5 +1,6 @@
 import pytest
-import isopsephism
+from isopsephism.isopsephism import isopsephy
 
 def test_from_greek_to_num():
-    assert greek_isopsephy("ΚΟΥΡΑΙ") == 601
+    assert isopsephy.convert_word_to_num("ΚΟΥΡΑΙ") == 601
+
