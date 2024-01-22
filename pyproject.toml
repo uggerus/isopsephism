@@ -1,7 +1,7 @@
 [project]
 name = "isopsephism"
 version = "0.1"
-description = "null"
+description = "Find the numerical value of words."
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [{name = "Uggerus"}]
